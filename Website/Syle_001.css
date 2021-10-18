@@ -1,0 +1,159 @@
+  head{
+            
+            text-align:center;
+        }
+        
+        body 
+            {
+                margin: 0;
+                font-family: 'Share Tech', sans-serif;
+                font-size:16px;
+                background-image: url("https://silviahartmann.com/background-tile-art/images/gray-background-repeating-2.jpg");
+                overflow-x:hidden;
+            }           
+            main {
+             position:relative;
+             padding:7vh 0 10vh;
+             opacity:0;
+             margin-top:-5px;
+         }
+        
+        ul {
+            list-style-type: square;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+            background-color: #111;
+            font-size: 20px;
+        }
+        
+        .Skills{
+            float:left;
+            display: block;
+           
+        }
+        .Contact{
+            
+            display: block;
+           
+        }
+        .ContactMe{
+            
+        }
+        
+        li {
+           display: block;
+            
+        }
+        
+        
+        
+        p{
+            color: white;
+        }
+        
+        li a {
+            
+            color: white;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #333;
+            font-size: 20px;
+        }
+       
+        div {
+            width: auto;
+            padding: 50px;
+            height: auto;
+            border: 5px solid gray;
+            background: black;
+            margin: auto;
+            text-align: center;
+        }
+        .drop{
+        background: rgba(0, 0, 0, 0.52);
+        width:auto;
+        margin: auto;
+        
+            
+        }
+        
+        h1 {
+            text-shadow: 2px 2px 5px cyan;
+            font-size: 80px;
+            color: cyan;
+            font-family: arial, helvetica, san-serif;
+            text-align:center;
+            position:relative;
+            display:flex;
+            align-items:center;
+            
+            line-height: 1em;
+            word-spacing:-.1em;
+            letter-spacing:-.05em;
+            transition:.2s all ease;
+            margin-left:530px;
+            margin-right:auto;
+            margin-bottom:15px;
+        }
+        h2{
+            text-shadow: 2px 2px 5px cyan;
+            font-size: 40px;
+            color: cyan;
+            font-family: arial, helvetica, san-serif;
+            margin: auto;
+            text-align:center;
+            
+
+        }
+     
+        h3 {
+            color: white;
+            text-align: center;
+        }
+        h4 {
+            color: cyan;
+        }
+        nav {
+            float: none;
+            text-align:center;
+        
+        }
+        div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      img {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width:45%
+      }
+      figure{
+            width: auto;
+            padding: 50px;
+            height: auto;
+            margin: auto;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            
+      }
