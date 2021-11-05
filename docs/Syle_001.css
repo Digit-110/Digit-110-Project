@@ -8,7 +8,7 @@
                 margin: 0;
                 font-family: 'Share Tech', sans-serif;
                 font-size:16px;
-                background-image: url("https://silviahartmann.com/background-tile-art/images/gray-background-repeating-2.jpg");
+                background-image: url("img/bg.jpg");
                 overflow-x:hidden;
             }           
             main {
@@ -164,3 +164,23 @@
             display: flex;
               background: rgba(0, 0, 0, 1);
             }
+      * {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
