@@ -10,7 +10,7 @@
                 <title>Letter from Paul Siple to Mr. Behrend about travel to Antarctica</title>
             </head>
             <body>            
-                <h1>Letter from Paul Siple to Mr. Behrendt</h1>
+                <h1>Letter from Paul Siple to Mr. Behrend</h1>
                 <meta></meta>
                 <br/>
                 <div>
@@ -28,7 +28,7 @@
     
     <xsl:template match="paragraph">
         
-        <p> <xsl:apply-templates /> </p>
+        <p> <span class="paragraph"/><xsl:value-of select="@n"/><xsl:apply-templates/></p>
 
     </xsl:template>
     
@@ -42,14 +42,21 @@
         <br/>
         <meta><xsl:apply-templates select="child::date"/></meta>
         <br/>
+        
+    </xsl:template>
+    
+    <xsl:template match="space">
+        <p><xsl:apply-templates/></p>
+        
     </xsl:template>
     
     <xsl:template match="closing">
-        
+       
         <meta><xsl:apply-templates/></meta>
         <meta><xsl:apply-templates select="child::sign"/></meta>
         <br/>
-        
     </xsl:template>
-        
+    <xsl:template match="graphic">
+        <div align="right"><img src="../pics/Penguin.PNG"></img></div>
+        </xsl:template>
 </xsl:stylesheet>
