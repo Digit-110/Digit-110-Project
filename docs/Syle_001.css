@@ -27,6 +27,25 @@
             font-size: 20px;
         }
         
+        .letter {
+            list-style-type:none;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
+        .li{
+            list-style-type:none;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
+        
         .Skills{
             float:left;
             display: block;
