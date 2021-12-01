@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <meta>
+      <title>Project Prosopography File</title>
+      <context>Markup data extracted on <date>2021-12-01T12:32:36.027-05:00</date>
+      </context>
+   </meta>
+   <listPerson>
+      <person>
+         <persName>Admiral Byrd</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+      <person>
+         <persName>Alton Wade, Geologist,</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+      <person>
+         <persName>Corey</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+      <person>
+         <persName>Olin Stan-cliff</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+      <person>
+         <persName>PAUL A. SPILE</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+      <person>
+         <persName>Stevenson Corey</persName>
+         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </person>
+   </listPerson>
+   <listPlace>
+      <place>
+         <placeName>Antarctic contintent</placeName>
+         <geo>
+            <lat><!--Look up the latitude--></lat>
+            <long><!--Look up the latitude--></long>
+         </geo>
+         <note resp=""><!--Your comments about this place: Why was it important in your collection? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </place>
+      <place>
+         <placeName>Mt. Raymound Foadick in the Marie Byrd Land,</placeName>
+         <geo>
+            <lat><!--Look up the latitude--></lat>
+            <long><!--Look up the latitude--></long>
+         </geo>
+         <note resp=""><!--Your comments about this place: Why was it important in your collection? Or what do you learn from the letters?
+                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+      </place>
+   </listPlace>
+</xml>
