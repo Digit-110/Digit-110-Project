@@ -45,6 +45,15 @@
             font-size: 20px;
             text-align: left;
         }
+        .lih2{
+            list-style-type:none;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
         
         .Skills{
             float:left;
@@ -107,17 +116,9 @@
             color: cyan;
             font-family: arial, helvetica, san-serif;
             text-align:center;
-            position:relative;
-            display:flex;
-            align-items:center;
             
-            line-height: 1em;
-            word-spacing:-.1em;
-            letter-spacing:-.05em;
-            transition:.2s all ease;
-            margin-left:530px;
-            margin-right:auto;
-            margin-bottom:15px;
+            
+   
         }
         h2{
             text-shadow: 2px 2px 5px cyan;
