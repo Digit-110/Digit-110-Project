@@ -3,9 +3,9 @@
     
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:variable name="travelColl" select="collection('XML-coll/?select=*.xml')"/>   
+       
     <!-- ########################################################################## -->
-    <!--2021-12-01 ebb: This XSLT reads a collection of XML files, and pulls data 
+    <!--2021-12-01 ebb: This XSLT reads a XML file, and pulls data 
          on persons, places, and other inline markup of interesting names/events. 
         The XSLT outputs these in XML format as a simple  data structure, designed to be filled in with more
         information by the project team. 
@@ -22,7 +22,7 @@
           </meta>
           
           <listPerson>
-              <xsl:for-each select="$travelColl//persName ! normalize-space() => distinct-values() => sort()">
+              <xsl:for-each select="//person ! normalize-space() => distinct-values() => sort()">
                   <person>
                       <persName><xsl:value-of select="current()"/></persName>
                       <note resp=""><xsl:comment>Your comments about this person: do we know anything about them? Or what do you learn from the letters?
@@ -33,7 +33,7 @@
               
           </listPerson>
           <listPlace>
-              <xsl:for-each select="$travelColl//placeName ! normalize-space() => distinct-values() => sort()">
+              <xsl:for-each select="//location ! normalize-space() => distinct-values() => sort()">
                   <place>
                       <placeName><xsl:value-of select="current()"/></placeName>
                       <geo>
