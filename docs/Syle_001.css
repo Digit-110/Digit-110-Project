@@ -150,7 +150,7 @@
       }
       
       div.gallery:hover {
-        border: 1px solid #777;
+        
       }
       
       div.gallery img {
@@ -162,6 +162,7 @@
         padding: 15px;
         text-align: center;
       }
+      
       img {
         display: inline;
         margin-left: auto;
@@ -203,4 +204,29 @@
   /*set the size of the result div:*/
   width: 300px;
   height: 300px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  padding: 0px;
+  height: auto;
+  border: none;
+  background: none;
+  margin: auto;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #090909;
+  min-width: 160px;
+  padding: 20px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
