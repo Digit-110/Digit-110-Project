@@ -179,11 +179,13 @@
             
       }
       .flex-Text {
-            margin:100px;
+            margin:10px;
             width: auto;
             height: auto;
-            display: flex;
+            display: block;
               background: rgba(0, 0, 0, 1);
+              text-align: left;
+              
             }
       * {box-sizing: border-box;}
 
@@ -229,4 +231,21 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  
 }
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 200px;
+  height: 200px;
+}
+
