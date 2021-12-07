@@ -8,8 +8,7 @@
    <listPerson>
       <person>
          <persName>Admiral Byrd</persName>
-         <note resp=""><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
-                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+         <note resp="">Admiral Boyd was an American naval officer, and he was also an explorer. Boyd also recives the Medal of Honor. He was also an organizer of polar logistics and a polar explorer.</note>
       </person>
       <person>
          <persName>Alton Wade, Geologist,</persName>
