@@ -95,9 +95,8 @@
        
         div {
             width: auto;
-            padding: 50px;
+            padding: 5px;
             height: auto;
-            border: 5px solid gray;
             background: black;
             margin: auto;
             text-align: center;
@@ -208,25 +207,28 @@
   height: 300px;
 }
 
-.dropdown {
+div.dropdown {
+background-color:aqua;
+font-size:smaller;
+color:black;
   position: relative;
   display: inline-block;
   width: auto;
-  padding: 0px;
   height: auto;
   border: none;
   background: none;
   margin: auto;
   text-align: left;
+  padding: 5px;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #0f0f0f;
-  width: auto;
-  height: auto;
-  padding: 100% 100%;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
   z-index: 1;
 }
 
@@ -250,4 +252,6 @@
   width: 200px;
   height: 200px;
 }
-
+span{
+    color:white;
+}
