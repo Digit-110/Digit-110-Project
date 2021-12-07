@@ -223,15 +223,17 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #090909;
-  min-width: 160px;
-  padding: 20px 16px;
+  background-color: #0f0f0f;
+  width: auto;
+  height: auto;
+  padding: 100% 100%;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  
+  width: auto;
+  height: auto;
 }
 * {box-sizing: border-box;}
 
