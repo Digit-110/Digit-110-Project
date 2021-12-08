@@ -8,7 +8,10 @@
                 margin: 0;
                 font-family: 'Share Tech', sans-serif;
                 font-size:16px;
-                background-image: url("img/bg.jpg");
+                background-image: url("img/Ship.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
                 overflow-x:hidden;
             }           
             main {
@@ -23,7 +26,7 @@
             margin: auto;
             padding: 20px;
             overflow: hidden;
-            background-color: #111;
+            background-color: rgba(0, 0, 0, 0.52);
             font-size: 20px;
         }
         
@@ -58,6 +61,8 @@
         .Skills{
             float:left;
             display: block;
+            position:relative;
+            left: 33%;
            
         }
         .Contact{
@@ -93,11 +98,13 @@
             font-size: 20px;
         }
        
+        
+       
         div {
             width: auto;
             padding: 5px;
             height: auto;
-            background: black;
+            background: rgba(0, 0, 0, 0.52);
             margin: auto;
             text-align: center;
         }
@@ -112,7 +119,7 @@
         h1 {
             text-shadow: 2px 2px 5px cyan;
             font-size: 80px;
-            color: cyan;
+            color: white;
             font-family: arial, helvetica, san-serif;
             text-align:center;
             
@@ -122,7 +129,7 @@
         h2{
             text-shadow: 2px 2px 5px cyan;
             font-size: 40px;
-            color: cyan;
+            color: white;
             font-family: arial, helvetica, san-serif;
             margin: auto;
             text-align:center;
@@ -135,9 +142,13 @@
             text-align: center;
         }
         h4 {
-            color: cyan;
+            color: white;
+            border:black;
         }
         nav {
+            position: relative;
+            display:block;
+            margin: auto;
             float: none;
             text-align:center;
         
@@ -182,7 +193,7 @@
             width: auto;
             height: auto;
             display: block;
-              background: rgba(0, 0, 0, 1);
+              background: rgba(0, 0, 0, 0.7);
               text-align: left;
               
             }
@@ -193,24 +204,37 @@
 }
 
 .img-zoom-lens {
-  position: absolute;
+  position:fixed;
   border: 1px solid #d4d4d4;
   /*set the size of the lens:*/
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .img-zoom-result {
   border: 1px solid #d4d4d4;
   /*set the size of the result div:*/
+  width: 500px;
+  height: 500px;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 25%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
   width: 300px;
   height: 300px;
 }
-
 div.dropdown {
 background-color:aqua;
-font-size:smaller;
-color:black;
+
+color:rgba(0, 0, 0, 0.52);
   position: relative;
   display: inline-block;
   width: auto;
@@ -239,19 +263,6 @@ color:black;
 }
 * {box-sizing: border-box;}
 
-.img-magnifier-container {
-  position: relative;
-}
-
-.img-magnifier-glass {
-  position: absolute;
-  border: 3px solid #000;
-  border-radius: 50%;
-  cursor: none;
-  /*Set the size of the magnifier glass:*/
-  width: 200px;
-  height: 200px;
-}
 span{
     color:white;
 }
