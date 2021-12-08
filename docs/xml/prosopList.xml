@@ -20,8 +20,7 @@
       </person>
       <person>
          <persName>Olin Stan-cliff</persName>
-         <note resp="hjl"><!--Your comments about this person: do we know anything about them? Or what do you learn from the letters?
-                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+         <note resp="hjl">Olin was also an explorer of the Byrd Atlantic Expedition.</note>
       </person>
       <person>
          <persName>PAUL A. SPILE</persName>
@@ -44,11 +43,10 @@
       <place>
          <placeName>Mt. Raymound Foadick in the Marie Byrd Land,</placeName>
          <geo>
-            <lat><!--Look up the latitude--></lat>
-            <long><!--Look up the latitude--></long>
+            <lat>Not Able to Be Found</lat>
+            <long>Not Able to Be Found</long>
          </geo>
-         <note resp=""><!--Your comments about this place: Why was it important in your collection? Or what do you learn from the letters?
-                      You can use your initials as the value of @resp to indicate who wrote this note.--></note>
+         <note resp="">Not Able to Be Found</note>
       </place>
    </listPlace>
 </xml>
